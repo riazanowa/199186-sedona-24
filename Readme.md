@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Ekaterina Ryazanova](https://up.htmlacademy.ru/htmlcss/24/user/199186).
-* Наставник: `Неизвестно`.
+* Наставник: [Mr Nobody].
 
 ---
 
