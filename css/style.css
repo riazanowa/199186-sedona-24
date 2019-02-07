@@ -359,6 +359,14 @@ a {
     border-radius: 2px;
 }
 
+.filter-button:hover,
+.filter-button:focus,
+.filter-button:active {
+    color: #000000;
+
+    background-color: #ffffff;
+}
+
 .sorting {
     background-color: #ffffff;
 }
