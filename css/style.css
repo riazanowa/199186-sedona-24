@@ -25,6 +25,11 @@ a {
       text-decoration: none;
   }
 
+img {
+    max-width: 100%;
+    height: auto;
+  }
+
 .button {
     font: inherit;
     font-weight: 700;
@@ -137,6 +142,7 @@ a {
 
 .site-navigation {
     display: flex;
+    flex-wrap: wrap;
     
     margin: 0;
     padding: 0;
@@ -146,11 +152,24 @@ a {
 
 .site-navigation li {
     width: 239px;
+    box-sizing: border-box;
     /* временно для сетки */
-    min-height: 56px;
+}
+
+.site-navigation li:nth-child(2) {
+    margin-right: 239px;
 }
 
 .site-navigation a {
+    display: block;
+    box-sizing: border-box;
+    width: 239px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 72px;
+    padding-left: 68px;
+
     color: #000000;
 }
 
@@ -177,18 +196,30 @@ a {
 .welcome-wrapper {
     position: relative;
     min-height: 508px;
+    padding-top: 76px;
+    padding-bottom: 79px;
     margin-bottom: 60px;
+
+    text-align: center;
 
     background-image: url(../img/background-photo.jpg);
     background-position: 0 -82px;
     background-repeat: no-repeat;
 }
 
-.welcome-wrapper img {
+.welcome-wrapper::after {
+    content: " ";
     position: absolute;
-    top: 76px;
-    left: 370px;
+    top: 452px;
+    left: -1px;
+
+    width: 1202px;
+    height: 59px;
+
+    background-image: url(../img/polygon.svg);
 }
+
+
 
 .sedona-description h1 {
     width: 440px;
@@ -200,6 +231,18 @@ a {
     font-weight: 700;
     text-align: center;
     color: #000000;
+}
+
+.sedona-description h1::before {
+    content: " ";
+    position: absolute;
+    top: 565px;
+    left: 0;
+
+    width: 1200px;
+    height: 216px;
+
+    background-color:#ffffff;
 }
 
 .features {
@@ -243,6 +286,7 @@ a {
 }
 
 .advice-list-item {
+    box-sizing: border-box;
     width: 400px;
     min-height: 332px;
 
@@ -259,6 +303,19 @@ a {
     line-height: 21px;
     font-weight: 700;
     color: #000000;
+}
+
+.advice-list-item h4 {
+    margin-top: 161px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 28px;
+}
+
+.advice-list-item p {
+    width: 242px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .features-list p,
