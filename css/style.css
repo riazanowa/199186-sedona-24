@@ -575,6 +575,8 @@ p.search-form-item {
 .social-button {
     width: 46px;
     height: 48px;
+    padding-top: 13px;
+    text-align: center;
     background-color: #81b3d2;
     box-sizing: border-box;
 }
