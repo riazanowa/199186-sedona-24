@@ -118,18 +118,26 @@
                 </svg>                
                 </button>
               </p>
+              <div class="quantity-form-wrapper">
               <p class="search-form-item">
                   <label for="adults-quantity">Взрослые:</label>
-                  <button class="button button-plus" type="button">Увеличить</button>
-                  <input type="text" name="adults-quantity" id="adults-quantity" value="2">
-                  <button class="button button-minus" type="button">Уменьшить</button>
+                  <div class="quantity-buttons-wrapper">
+                     <button class="button button-minus" type="button">Уменьшить</button>                    
+                     <input type="text" name="adults-quantity" id="adults-quantity" value="2">
+                     <button class="button button-plus" type="button">Увеличить</button>
+                    
+                  </div>
               </p>
               <p class="search-form-item">
                   <label for="children-quantity">Дети:</label>
-                  <button class="button button-plus" type="button">Увеличить</button>
-                  <input type="text" name="children-quantity" id="children-quantity" value="0">
-                  <button class="button button-minus" type="button">Уменьшить</button>
+                  <div class="quantity-buttons-wrapper">
+                    <button class="button button-minus" type="button">Уменьшить</button>                    
+                    <input type="text" name="children-quantity" id="children-quantity" value="0">
+                    <button class="button button-plus" type="button">Увеличить</button>
+                    
+                  </div>
               </p>
+              </div>
               <button class="button search-button" type="submit">Найти</button>
             </form>
             
