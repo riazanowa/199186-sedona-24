@@ -1,0 +1,1 @@
+var popup=document.querySelector(".modal-search"),button=document.querySelector(".open-search-button");button.addEventListener("click",function(e){e.preventDefault(),popup.classList.toggle("modal-show")});
