@@ -70,7 +70,7 @@ img
     width: 568px;
     margin: 0 auto;
     padding-top: 30px;
-    padding-bottom: 31px;
+    padding-bottom: 30px;
 }
 
 .button.open-search-button:hover,
@@ -232,9 +232,9 @@ img
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     width: 100%;
-    margin-top: 55px;
+    margin-top: 54px;
     padding-top: 16px;
-    padding-bottom: 17px;
+    padding-bottom: 16px;
 }
 
 .button.info-button
@@ -420,7 +420,7 @@ img
     line-height: 26px;
 
     width: 440px;
-    margin: 0 auto 28px;
+    margin: 0 auto 27px;
     padding: 0;
     padding-top: 58px;
 
@@ -431,7 +431,7 @@ img
 
 .features
 {
-    margin-bottom: 51px;
+    margin-bottom: 50px;
 }
 
 .features .feature-text
@@ -440,7 +440,7 @@ img
     line-height: 26px;
 
     width: 500px;
-    margin: 0 auto 52px;
+    margin: 0 auto 51px;
     padding: 0;
     padding-left: 9px;
 
@@ -518,7 +518,7 @@ img
 {
     position: relative;
 
-    margin-top: 160px;
+    margin-top: 161px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -616,7 +616,7 @@ img
 .features-list-item:not(:first-child) h3,
 .features-list-item:not(:nth-child(2)) h3
 {
-    margin-top: 46px;
+    margin-top: 47px;
     margin-bottom: 24px;
 
     text-align: center;
@@ -662,7 +662,7 @@ img
 .advice-list
 {
     margin: 0;
-    margin-bottom: -1px;
+    margin-bottom: -2px;
     padding: 0;
 
     background-color: #fff;
@@ -700,7 +700,7 @@ li.features-list-item:nth-child(n+3)
     line-height: 24px;
 
     width: 440px;
-    margin: 0 auto 45px;
+    margin: 0 auto 47px;
     padding: 0;
 
     text-align: center;
@@ -1035,7 +1035,7 @@ label[for='children-quantity']
 
 .footer-copyright > b
 {
-    margin-top: 6px;
+    margin-top: 5px;
     margin-right: 8px;
 }
 
@@ -1992,5 +1992,5 @@ input[name='children-quantity']
 
 .advice-list-item > p.advice-info
 {
-    margin-top: 25px;
+    margin-top: 24px;
 }
