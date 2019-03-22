@@ -70,7 +70,7 @@ img
     width: 568px;
     margin: 0 auto;
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 31px;
 }
 
 .button.open-search-button:hover,
@@ -394,7 +394,7 @@ img
     text-align: center;
 
     background-color: #766357;
-    background-image: url(../img/background-photo.jpg);
+    background-image: url('../img/background-photo.jpg');
     background-repeat: no-repeat;
     background-position: 0 -82px;
 }
@@ -410,7 +410,7 @@ img
 
     content: ' ';
 
-    background-image: url(../img/polygon.svg);
+    background-image: url('../img/polygon.svg');
 }
 
 .sedona-description h1
@@ -422,7 +422,7 @@ img
     width: 440px;
     margin: 0 auto 28px;
     padding: 0;
-    padding-top: 60px;
+    padding-top: 58px;
 
     text-align: center;
 
@@ -518,7 +518,7 @@ img
 {
     position: relative;
 
-    margin-top: 162px;
+    margin-top: 160px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -535,35 +535,35 @@ img
 
 .accomodation h4::before
 {
-    top: -103px;
+    top: -100px;
     left: 163px;
 
     width: 72px;
     height: 75px;
 
-    background-image: url(../img/advice-icon-1.svg);
+    background-image: url('../img/advice-icon-1.svg');
 }
 
 .food h4::before
 {
-    top: -101px;
+    top: -99px;
     left: 163px;
 
     width: 74px;
     height: 70px;
 
-    background-image: url(../img/advice-icon-2.svg);
+    background-image: url('../img/advice-icon-2.svg');
 }
 
 .souvenirs h4::before
 {
-    top: -107px;
+    top: -104px;
     left: 168px;
 
     width: 64px;
     height: 76px;
 
-    background-image: url(../img/advice-icon-3.svg);
+    background-image: url('../img/advice-icon-3.svg');
 }
 
 .features-list p,
@@ -616,7 +616,7 @@ img
 .features-list-item:not(:first-child) h3,
 .features-list-item:not(:nth-child(2)) h3
 {
-    margin-top: 48px;
+    margin-top: 46px;
     margin-bottom: 24px;
 
     text-align: center;
@@ -624,7 +624,7 @@ img
 
 .features-list-item:first-child h3
 {
-    margin-top: 48px;
+    margin-top: 46px;
 }
 
 .features-number
@@ -662,7 +662,7 @@ img
 .advice-list
 {
     margin: 0;
-    margin-bottom: -3px;
+    margin-bottom: -1px;
     padding: 0;
 
     background-color: #fff;
@@ -700,7 +700,7 @@ li.features-list-item:nth-child(n+3)
     line-height: 24px;
 
     width: 440px;
-    margin: 0 auto 47px;
+    margin: 0 auto 45px;
     padding: 0;
 
     text-align: center;
@@ -915,7 +915,7 @@ label[for='children-quantity']
     height: 593px;
 
     background-color: #ababab;
-    background-image: url(../img/map.jpg);
+    background-image: url('../img/map.jpg');
     background-repeat: no-repeat;
     background-position: 0 0;
     background-size: cover;
@@ -1206,14 +1206,14 @@ label[for='children-quantity']
     content: '';
 
     border: none;
-    background-image: url(../img/checkbox-on.png);
+    background-image: url('../img/checkbox-on.png');
     background-repeat: no-repeat;
     background-position: 0 0;
 }
 
 .filter-input-checkbox:checked:disabled + label::before
 {
-    background-image: url(../img/checkbox-on-disabled.png);
+    background-image: url('../img/checkbox-on-disabled.png');
 }
 
 .filter-input-checkbox:hover + label::before,
@@ -1988,4 +1988,9 @@ input[name='children-quantity']
 .main-page-footer
 {
     padding-top: 36px;
+}
+
+.advice-list-item > p.advice-info
+{
+    margin-top: 25px;
 }
